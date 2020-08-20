@@ -80,6 +80,7 @@ span.text{
     display: inline-block;
     top: 50px;
 }
+
 .contact a:hover{
     color: aliceblue;
 }
