@@ -7,10 +7,10 @@
 body{
     background-color: #252627;
 }
-.container{
+.container, .profile{
     padding: 0px 100px 0px 100px;
 }
-header, nav, ul{
+header, nav, ul, .profile{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -21,10 +21,10 @@ header{
 .navbar{
     background-color: #181818;
 }
-header h1, nav a{
+header h1, nav a, .profile p{
     color: #707070;
 }
-a{
+li a{
     text-decoration: none;
     font-size: .9rem;
     margin-left: 30px;
@@ -36,4 +36,32 @@ li{
     top: 70%;
     bottom: 50%;
     transform: translateY(-50%);
+}
+.profile{
+    margin-top: 50px;
+    color: whitesmoke;
+}
+.profile-heading span{
+    display: block;
+}
+.name{
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    color: #ED5565 !important;
+}
+.profile-img img{
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.contact a{
+    text-decoration: none;
+    border: 1px solid #ED5565;
+    text-transform: uppercase;
+    color: #ED5565;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: .8rem;
 }
