@@ -404,11 +404,11 @@ img{
   width: 100%;
 }
 
-.image {
+.video {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  max-height: 220px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -435,7 +435,7 @@ img{
   background-color: var(--first-color);
   color: white;
 }
-.project:hover .image {
+.project:hover .video {
   opacity: 0.3;
 }
 
