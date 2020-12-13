@@ -496,9 +496,13 @@ img{
   .section-title{
     margin-bottom: var(--mb-6);
   }
+  
   .section-title::after{
     width: 80px;
     top: 3rem;
+  }
+  .project-title::after{
+    width: 130px;
   }
 
   .nav{
