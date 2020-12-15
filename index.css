@@ -372,17 +372,14 @@ img{
   overflow: hidden;
   border: 1px solid rgb(223, 221, 221);
 }
-.work__img video{
+.work__img img{
   transition: 1s;
   cursor: pointer;
 }
-.work__img video:hover{
+.work__img img:hover{
   transform: scale(1.1);
 }
-.video{
-  width: 100%;
-  /* height: 100%; */
-}
+
 .card{
   text-align: center;
 }
